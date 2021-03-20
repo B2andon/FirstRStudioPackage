@@ -1,0 +1,16 @@
+Package: NFLRosterData
+Type: Package
+Title: NFL Roster Data from NFLAPI
+Version: 0.0.0.1
+Author: Brandon Dora
+Maintainer: Brandon Dora <bmd2@usf.edu>
+Description: An RStudio package that lists NFL Teams and players based on their
+current rosters, along with each position the players play. The API/data can be
+found at https://api.nfl.com/docs/getting-started/index.html and was accessed
+last on 03.20.2021.
+Depends:  R (>=2.1.0)
+Imports:  tidyr (R>=3.1)
+  tibble (>=2.1.1)
+  stringr (>=3.1)
+Encoding: UTF-8
+LazyData: true
